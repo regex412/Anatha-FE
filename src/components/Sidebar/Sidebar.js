@@ -6,9 +6,6 @@ import "./Sidebar.css";
 import { CloseOutlined } from '@ant-design/icons'
 import { Link } from "react-router-dom";
 
-import Anathalogo from "../../assets/Anatha-logo.png"
-
-
 const Sidebar = ({ isopen, toggle }) => {
   let opacityClasses = ["sidebar-container"];
   if (isopen) {

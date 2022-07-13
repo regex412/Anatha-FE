@@ -1,6 +1,6 @@
 import React from 'react';
 import { Col, Row } from 'antd';
-import { Button, Input } from 'antd';
+import { Button} from 'antd';
 import 'antd/dist/antd.css';
 import "./IdeaIMG.css"
 import ideaImg from "../../assets/Practical-Idealist.jpg"

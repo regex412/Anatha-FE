@@ -1,7 +1,5 @@
 import React from 'react';
 import { Col, Row } from 'antd';
-import { Input } from 'antd';
-import { Button } from 'antd';
 
 import 'antd/dist/antd.css';
 import "./IntroTWO.css"

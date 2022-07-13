@@ -57,9 +57,7 @@
     font-weight: 100 !important;
   }
   .background-video {
-    padding: 10px;
-    width: 355px !important;
-    height: 370px;
+    width: 100% !important;
   }
   .video-btn_container {
     margin: 0px;
