@@ -1,0 +1,70 @@
+#CryptoVideo {
+  background-color: white;
+}
+.CryptoVideo-content {
+  padding-top: 160px;
+  padding-bottom: 40px;
+  letter-spacing: 0.011rem;
+  color: rgb(0, 0, 0);
+  font-family: "termina", sans-serif;
+  font-style: normal;
+  line-height: 2.778rem;
+  text-align: center;
+}
+.Crypto-percent {
+  margin-bottom: 1px !important;
+  text-align: center !important;
+  font-size: 50px;
+  font-weight: 600 !important;
+}
+.Crypto-percent-content {
+  line-height: 1.66667rem !important;
+  letter-spacing: 0.011rem;
+  font-size: 25px;
+}
+
+.background-video {
+  width: 600px;
+  height: 500px;
+ }
+ .video-btn_container {
+   margin-left: 150px;
+   padding: 30px;
+   width: 100% !important;
+   justify-content: center !important;
+ }
+
+ 
+.video-btn {
+  background-color: transparent;
+  border: 1px solid #a98175;
+  color: #a98175;
+  font-size: 17px;
+  font-weight: 500 !important;
+  border-radius: 50px;
+  height: 45px;
+  width: 250px;
+}
+.video-btn:hover {
+  background-color: #a98175;
+  color: white;
+  border: 1px solid #a98175;
+}
+
+@media (max-width: 600px){
+  .Crypto-percent {
+    line-height: 70px !important;
+    font-weight: 100 !important;
+  }
+  .background-video {
+    padding: 10px;
+    width: 355px !important;
+    height: 370px;
+  }
+  .video-btn_container {
+    margin: 0px;
+  }
+  .video-btn {
+    width: 100%;
+  }
+}

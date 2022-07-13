@@ -1,0 +1,36 @@
+#MountIMG {
+  background-image: url(https://anatha.io/wp-content/uploads/2021/08/Cover-16-scaled.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  background-color: transparent;
+}
+
+.MountIMG-row {
+  padding: 30px 0px 30px 0 !important;
+  margin: 0px !important;
+}
+.MountIMG-container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.MountIMG-container_img {
+  width: 100% !important;
+  height: 570px;
+}
+
+
+@media (max-width: 600px){
+  .ant-col {
+    padding: 0px !important;
+  }
+  .MountIMG-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .MountIMG-container_img {
+    width: 100% !important;
+    height: 350px;
+  }
+}
+  

@@ -1,0 +1,45 @@
+#EthosIMG {
+  background-color: #f9f7f3;
+}
+.EthosIMG-container {
+  letter-spacing: 0.011rem;
+  color: rgb(0, 0, 0);
+  font-family: "termina", sans-serif;
+  font-weight: 500 !important;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 2.778rem;
+}
+.Ethosdetail-container {
+  background-color: #f2f2f2;
+}
+.ethos-img {
+  max-width: 100%;
+  height: 100%;
+}
+.Ethosdetail-contain {
+  padding: 50px;
+}
+.Ethosdetail-contain > h1{
+  padding-top: 200px;
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 4.2rem;
+}
+.Ethosdetail-contain > p{
+  font-size: 20px;
+  font-style: italic;
+}
+
+@media (max-width: 600px){
+  .Ethosdetail-contain > h1{
+    padding: 0px !important;
+    font-size: 30px !important;
+    font-weight: 600;
+    line-height: 3.2rem !important;
+  }
+  .Ethosdetail-contain > p{
+    font-size: 20px !important;
+    font-style: italic;
+  }
+}
