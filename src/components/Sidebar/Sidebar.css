@@ -1,6 +1,6 @@
 .sidebar-container{
     overflow-x: auto;
-    padding-top: 100px;
+    padding-top: 10px;
     position: fixed;
     z-index: 999;
     width: 100%;
@@ -11,6 +11,14 @@
     align-items: center;
     left: 0;
     transition: 0.3s ease-in-out;
+}
+.img_anathalogo {
+    width: 6.5rem !important;
+    height: 6.5rem !important;
+}
+.mobile-nav {
+    width: 100%;
+    display: flex !important;
 }
 
 .opacity-on{
@@ -32,9 +40,12 @@
     right: 1.9rem;
 }
 .close-icon{
+    padding: 30px;
+    margin-top: 5px;
     color : black
 }
 .sidebar-menu{
+    padding: 30px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: repeat(4, 80px);
@@ -60,6 +71,10 @@
 @media screen and (max-width: 1480px){
     .sidebar-menu{
         grid-template-rows: repeat(4, 60px)
+    }
+    .close-icon {
+        padding-top: 20%;
+        padding-left: 130px !important;
     }
 }
 .button-wrap{
