@@ -1,0 +1,45 @@
+#KnowMore {
+  background-color: #f9f7f3;
+}
+.KnowMore-content {
+  padding-top: 160px;
+  padding-bottom: 120px;
+  letter-spacing: 0.011rem;
+  color: rgb(0, 0, 0);
+  font-family: "termina", sans-serif;
+  font-weight: 500 !important;
+  font-style: normal;
+  font-size: 2rem;
+  line-height: 2.778rem;
+  text-align: center;
+}
+.KnowMore-content > p{
+  font-family: "termina", sans-serif;
+  font-weight: 600 !important;
+  font-style: normal;
+  font-size: 2.644rem;
+  letter-spacing: 0.2rem;
+}
+.KnowMore-content > span{
+  font-family: "termina", sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.344rem;
+  line-height: 0.556rem !important;
+}
+span > a{
+  font-family: "termina", sans-serif;
+  font-style: italic;
+  text-align: center;
+  font-size: 1.344rem;
+  color: #a98275;
+}
+span > a :hover{
+  color: #bea197 !important;
+}
+
+@media (max-width: 600px){
+  .KnowMore-content {
+    padding:40px !important;
+  }
+}

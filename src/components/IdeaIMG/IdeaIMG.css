@@ -1,0 +1,76 @@
+
+#IdeaIMG {
+  padding: 150px;
+}
+.ideaimg {
+  width: 100% !important;
+}
+.ideaimg_content{
+  font-size: 24px;
+  text-align: center;
+  color: rgb(84, 84, 84);
+}
+.ideaImg-contain_content > p{
+  padding: 20px 90px 0px 90px;
+  font-family: "termina", sans-serif;
+  font-weight: 500 !important;
+  font-style: normal;
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.9rem;
+  color: rgb(84, 84, 84);
+}
+/* Email Input btn css */
+.idea-email_box {
+  padding-left: 18px;
+  outline: none !important;
+  background-color: transparent;
+  border: 1px solid #e8e8e8;
+  color: black;
+  font-size: 17px;
+  font-weight: 500 !important;
+  border-radius: 50px;
+  height: 60px;
+}
+
+.idea-email_box:focus {
+  transition: all 0.3s;
+  outline: none !important;
+  border: 1px solid rgb(179, 176, 176);
+  background-color: white;
+}
+.idea-email_box::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #929292;
+  opacity: 1; /* Firefox */
+}
+.idea-email_box:focus::-webkit-input-placeholder {
+  color: white;
+}
+
+/* idea btn css */
+.idea-btn {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  font-size: 17px;
+  font-weight: 500 !important;
+  border-radius: 50px;
+  height: 60px;
+  width: 150px;
+}
+.idea-btn:hover {
+  background-color: #a98175;
+  color: white;
+  border: 1px solid #a98175;
+}
+
+@media (max-width: 600px){
+  #IdeaIMG {
+    padding: 80px 10px 50px 10px !important;
+  }
+  .idea-email_box, .idea-btn{
+    margin-top: 20px;
+    width: 360px;
+  }
+}
+  
